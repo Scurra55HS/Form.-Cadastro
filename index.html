@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt_br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de Usúarios</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="shortcut icon" type="imagex/png" href="./img/icons8-done-24.png">
+</head>
+<body>
+    
+    <section>
+        <form>
+            <label for="">Nome</label>
+            <input type="text" id="nome" placeholder="Dígite seu nome">
+            <label for="">E-mail</label>
+            <input type="text" id="email" placeholder="xxxxx@gmail.com">
+            <label for="">Senha</label>
+            <input type="password" id="senha" placeholder="Dígite sua senha" minlength="8" required>
+            <label for="">Confirmação de Senha</label>
+            <input type="password" id="confiSenha" placeholder="Confirme a sua senha" minlength="8" required>
+            <button type="submit" onclick="validaFormulario()">Enviar</button>
+            
+            <button id="bdark" onclick="darkMode()">Modo Escuro</button>
+        </form>
+    </section>
+    
+    <script src="./script.js"></script>
+</body>
+</html>
